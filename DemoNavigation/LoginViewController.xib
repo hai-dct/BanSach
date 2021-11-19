@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="DemoNavigation" customModuleProvider="target">
+            <connections>
+                <outlet property="userNameTextField" destination="FBG-2J-Tzz" id="Tnv-GV-lmu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFg-7M-1qE">
+                    <rect key="frame" x="186.5" y="433" width="41" height="30"/>
+                    <state key="normal" title="Home"/>
+                    <connections>
+                        <action selector="loginButtonTouchUpInside:" destination="-1" eventType="touchUpInside" id="fge-iG-rlP"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FBG-2J-Tzz">
+                    <rect key="frame" x="20" y="349" width="374" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FBG-2J-Tzz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="CsN-qd-hdc"/>
+                <constraint firstItem="SFg-7M-1qE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Gw7-c6-pi7"/>
+                <constraint firstItem="SFg-7M-1qE" firstAttribute="top" secondItem="FBG-2J-Tzz" secondAttribute="bottom" constant="50" id="Krm-RH-zlS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FBG-2J-Tzz" secondAttribute="trailing" constant="20" id="MSn-9b-6kZ"/>
+                <constraint firstItem="SFg-7M-1qE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hK4-Cw-ber"/>
+            </constraints>
+            <point key="canvasLocation" x="-14" y="89"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="DemoNavigation" customModuleProvider="target">
+            <connections>
+                <outlet property="homeLabel" destination="DBm-kV-pZ6" id="Ddw-71-hqt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellcome to Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBm-kV-pZ6">
+                    <rect key="frame" x="135" y="437.5" width="144" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUC-hb-UqZ">
+                    <rect key="frame" x="184" y="632" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="detailButtonTouchUpInside" destination="-1" eventType="touchUpInside" id="Q0z-sl-uJd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DBm-kV-pZ6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="D1S-Ub-R31"/>
+                <constraint firstItem="DBm-kV-pZ6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="I1q-EY-KUV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="WUC-hb-UqZ" secondAttribute="bottom" constant="200" id="MLu-Ni-nQG"/>
+                <constraint firstItem="WUC-hb-UqZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="v9c-c3-hlp"/>
+            </constraints>
+            <point key="canvasLocation" x="-14" y="89"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_DemoNavigation {
+  umbrella header "Pods-DemoNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}

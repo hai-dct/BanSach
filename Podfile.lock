@@ -1,0 +1,24 @@
+PODS:
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - SwiftLint (0.44.0)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift (~> 15.2.0)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+
+PODFILE CHECKSUM: 0de3c4e8cf065bc9906aa7bd2299e025431b851a
+
+COCOAPODS: 1.11.2

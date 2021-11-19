@@ -1,0 +1,12 @@
+//
+//  DevConfig.xcconfig
+//  DemoNavigation
+//
+//  Created by Hai Nguyen H.P.[3] VN.Danang on 9/27/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BUNDLE_INDENTIFIER = com.demo.navigation.dev
+DOMAIN_API = https:/\/\dev.com
